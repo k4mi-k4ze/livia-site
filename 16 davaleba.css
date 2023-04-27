@@ -1,0 +1,213 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+@media only screen and (max-device-width: 1366px) {
+    nav {
+        margin-top: 5.5vh !important;
+    } 
+    .main1 {
+        width: 57vw !important;  
+}
+    .p-main-1, .p-main-2 {
+        width: 57vw !important;
+}
+    .main-photo {
+        width: 725px !important;
+        margin-top: -130px !important;
+        margin-left: 105px;
+    }
+    .contact-us {
+        margin-top: -123vh !important;
+        margin-left: 41vw !important;
+}
+    #section-2 {
+        width: 92vw !important;
+}
+    .products {
+        width: 24vw !important;
+}
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background: rgba(81, 93, 239, 1);
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: left;
+    margin-left: 8.5vw;
+    margin-right: 8.5vw;
+}
+.site-logo {
+    margin-top: 3.5vh;
+}
+.site-name1 {
+    margin-top: 2vh;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: rgba(251, 251, 251, 1);
+}
+.site-name2 {
+    margin-top: 2vh;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: rgba(27, 207, 246, 1);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-left: 10vw
+}
+.home, .about, .services, .portfolio, .blog {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FBFBFB;
+}
+.about, .services, .portfolio, .blog {
+    margin-left: 3vw;
+}
+a:link, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+}
+a:link:active, a:visited:active {
+    text-decoration: none;
+    cursor: default;
+}
+#section-1 {
+    margin-top: 4vh;
+    display: flex;
+}
+.main1 {
+    margin-left: 8.5vw;
+    width: 49.5vw; 
+}
+.p-main-1, .p-main-2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FBFBFB;
+    width: 43vw;
+}
+.h3-main {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FBFBFB;  
+    margin-top: -1vh;
+    margin-bottom: 3vh;
+}
+.collaborate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+    position: absolute;
+    width: 399px;
+    height: 80px;
+    background: #FBFBFB;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #333333;
+    cursor: pointer;
+    margin-top: 3vh;
+    border: none;
+}
+.fa-long-arrow-right {
+    margin-left: 15px;
+}
+.main2 {
+    position: relative;
+}
+.main-photo {
+    margin-top: -155px;
+    position: relative;
+}
+.contact-us {
+    margin-top: -96.5vh;
+    margin-left: 26vw;
+    width: 149px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    background: #515DEF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FBFBFB;
+    cursor: pointer;
+    position: absolute;
+    border: none;
+}
+#section-2 {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 72vw;
+    margin-left: 0vw;
+    margin-right: 8.5vw;
+    margin-top: -28.5vh;
+    background: #FFFFFF;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.parts {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8.5vw;
+}
+.products {
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    margin-right: 4.5vw;
+    width: 17vw;
+}
+.caption {
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.caption-1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #909090;
+    margin-top: 155px;
+}
