@@ -21,11 +21,11 @@
     }
     .main1 {
         width: 57vw !important;  
-}
+    }
     .p-main-1, .p-main-2 {
         font-size: 16px !important;
         line-height: 22px !important;
-}
+    }
     .h3-main {
         font-size: 42px !important;
         line-height: 55px !important;
@@ -39,30 +39,36 @@
         margin-left: 105px;
     }
     .contact-us {
-        margin-top: -123vh !important;
-        margin-left: 41vw !important;
+        margin-top: -106.5vh !important;
+        margin-left: 35vw !important;
         font-size: 16px !important;
         line-height: 22px !important;
-        }
-}
+    }
+    #section-1 {
+        margin-top: 2vh !important;
+    }
     #section-2 {
         width: 92vw !important;
         margin-top: -243px !important;
-}
+        height: ;
+    }
     .products {
         width: 24vw !important;
-}
+    }
     .caption, .caption-1 {
         font-size: 16px !important;
         line-height: 22px !important;
-}
+    }
     .collaborate {
         font-size: 16px !important;
         line-height: 40px;
         margin-top: 4vh !important;
-}
+    }
     .main-photo {
-        width: 650px;
+        width: 650px !important;
+    }
+    #section-2 {
+        width: 68vw !important;
     }
 }
 * {
@@ -211,7 +217,7 @@ a:link:active, a:visited:active {
     width: 72vw;
     margin-left: 0vw;
     margin-right: 8.5vw;
-    margin-top: -28.5vh;
+    margin-top: -26.5vh;
     background: #FFFFFF;
     padding-top: 5vh;
     padding-bottom: 5vh;
