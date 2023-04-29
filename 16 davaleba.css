@@ -3,15 +3,36 @@
     src: url(fonts/Poppins-Regular.ttf);
 }
 @media only screen and (max-device-width: 1366px) {
+    .site-name1 {
+        font-size: 24px !important;
+        line-height: 36px !important;
+    }
+    .site-name2 {
+        font-size: 24px !important;
+        line-height: 36px !important;
+    }
     nav {
-        margin-top: 5.5vh !important;
+        margin-top: 4.5vh !important;
+        margin-left: 6vw !important;
     } 
+    .home, .about, .services, .portfolio, .blog {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
     .main1 {
         width: 57vw !important;  
 }
     .p-main-1, .p-main-2 {
-        width: 57vw !important;
+        font-size: 16px !important;
+        line-height: 22px !important;
 }
+    .h3-main {
+        font-size: 42px !important;
+        line-height: 55px !important;
+        color: #FBFBFB;  
+        margin-top: 0px !important;
+        margin-bottom: 4vh !important;
+    }
     .main-photo {
         width: 725px !important;
         margin-top: -130px !important;
@@ -20,13 +41,29 @@
     .contact-us {
         margin-top: -123vh !important;
         margin-left: 41vw !important;
+        font-size: 16px !important;
+        line-height: 22px !important;
+        }
 }
     #section-2 {
         width: 92vw !important;
+        margin-top: -243px !important;
 }
     .products {
         width: 24vw !important;
 }
+    .caption, .caption-1 {
+        font-size: 16px !important;
+        line-height: 22px !important;
+}
+    .collaborate {
+        font-size: 16px !important;
+        line-height: 40px;
+        margin-top: 4vh !important;
+}
+    .main-photo {
+        width: 650px !important;
+    }
 }
 * {
     box-sizing: border-box;
