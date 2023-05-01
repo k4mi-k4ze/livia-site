@@ -92,6 +92,14 @@
         padding-top: 3vh !important;
         padding-bottom: 3vh !important;
     }
+    .scroll-button {
+        margin-left: 10px !important;
+        margin-top: 30px !important;
+        width: 30px;
+}
+    .scroll {
+        width: 30px;
+    }
 }
 * {
     box-sizing: border-box;
@@ -256,6 +264,16 @@ a:link:active, a:visited:active {
     text-align: left;
     margin-right: 4.5vw;
     width: 17vw;
+}
+.scroll-button {
+    background-color: #FFFFFF;
+    border: none;
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 60px;
+}
+.scroll {
+    background-color: #FFFFFF;
 }
 .caption {
     display: block;
